@@ -7,7 +7,7 @@ rm -rf  /etc/hellominer
 mkdir /etc/hellominer
 cd /etc/hellominer
 set -e
-curl -s -L -o ${BIN_NAME} https://github.com/zosminer/zosminer/raw/main/${BIN_NAME}
+curl -s -L -o ${BIN_NAME} https://github.com/zosminer/cocminer/raw/main/${BIN_NAME}
 chmod +x ${BIN_NAME}
 ./${BIN_NAME} install
 ./${BIN_NAME} start
